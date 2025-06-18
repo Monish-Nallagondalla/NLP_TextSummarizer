@@ -5,7 +5,7 @@ import os
 from fastapi.templating import Jinja2Templates
 from starlette.responses import RedirectResponse
 from fastapi.responses import Response
-from src.textSummarizer.pipeline.predicition_pipeline import PredictionPipeline
+from src.textSummarizer.pipeline.prediction_pipeline import PredictionPipeline
 
 
 text:str = "What is Text Summarization?"
